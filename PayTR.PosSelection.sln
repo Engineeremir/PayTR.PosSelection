@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36616.10 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayTR.PosSelection.Shared", "src\PayTR.PosSelection.Shared\PayTR.PosSelection.Shared.csproj", "{6655592B-357F-4A46-AA1F-DA6B7A887F48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayTR.PosSelection.Domain", "src\PayTR.PosSelection.Domain\PayTR.PosSelection.Domain.csproj", "{02A37886-192D-4C96-9FFF-4A712E1BE169}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{D5B733FD-C0CD-44B0-A992-A09C7CFB5537}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayTR.PosSelection.Infrastructure.EFCore", "src\Infrastructure\PayTR.PosSelection.Infrastructure.EFCore\PayTR.PosSelection.Infrastructure.EFCore.csproj", "{C66368BC-B63D-4CE8-8B97-C9B724FA66E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayTR.PosSelection.API", "src\PayTR.PosSelection.API\PayTR.PosSelection.API.csproj", "{D5EAC30C-83AF-443E-AFAC-3264F78A97C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayTR.PosSelection.Application", "src\PayTR.PosSelection.Application\PayTR.PosSelection.Application.csproj", "{869210EC-03FC-4296-842E-7F1D52BF0584}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayTR.PosSelection.Infrastructure.Scheduler", "src\Infrastructure\PayTR.PosSelection.Infrastructure.Scheduler\PayTR.PosSelection.Infrastructure.Scheduler.csproj", "{3EAE1F13-C0DE-46C6-80E0-7F3BE63DC957}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6655592B-357F-4A46-AA1F-DA6B7A887F48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6655592B-357F-4A46-AA1F-DA6B7A887F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6655592B-357F-4A46-AA1F-DA6B7A887F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6655592B-357F-4A46-AA1F-DA6B7A887F48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02A37886-192D-4C96-9FFF-4A712E1BE169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02A37886-192D-4C96-9FFF-4A712E1BE169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02A37886-192D-4C96-9FFF-4A712E1BE169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02A37886-192D-4C96-9FFF-4A712E1BE169}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C66368BC-B63D-4CE8-8B97-C9B724FA66E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C66368BC-B63D-4CE8-8B97-C9B724FA66E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C66368BC-B63D-4CE8-8B97-C9B724FA66E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C66368BC-B63D-4CE8-8B97-C9B724FA66E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5EAC30C-83AF-443E-AFAC-3264F78A97C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5EAC30C-83AF-443E-AFAC-3264F78A97C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5EAC30C-83AF-443E-AFAC-3264F78A97C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5EAC30C-83AF-443E-AFAC-3264F78A97C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{869210EC-03FC-4296-842E-7F1D52BF0584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{869210EC-03FC-4296-842E-7F1D52BF0584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{869210EC-03FC-4296-842E-7F1D52BF0584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{869210EC-03FC-4296-842E-7F1D52BF0584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EAE1F13-C0DE-46C6-80E0-7F3BE63DC957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EAE1F13-C0DE-46C6-80E0-7F3BE63DC957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EAE1F13-C0DE-46C6-80E0-7F3BE63DC957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EAE1F13-C0DE-46C6-80E0-7F3BE63DC957}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6655592B-357F-4A46-AA1F-DA6B7A887F48} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{02A37886-192D-4C96-9FFF-4A712E1BE169} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{D5B733FD-C0CD-44B0-A992-A09C7CFB5537} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{C66368BC-B63D-4CE8-8B97-C9B724FA66E1} = {D5B733FD-C0CD-44B0-A992-A09C7CFB5537}
+		{D5EAC30C-83AF-443E-AFAC-3264F78A97C4} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{869210EC-03FC-4296-842E-7F1D52BF0584} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{3EAE1F13-C0DE-46C6-80E0-7F3BE63DC957} = {D5B733FD-C0CD-44B0-A992-A09C7CFB5537}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CC2938D-4BED-4EE5-B694-784AB1CD9BA5}
+	EndGlobalSection
+EndGlobal
