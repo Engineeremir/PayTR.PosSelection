@@ -64,7 +64,7 @@ docker-compose up -d paytr.shared.database paytr.shared.vault paytr.shared.redis
         "PosSelectionDatabase": "Host=paytr.shared.database;Port=5432;Database=posselection;Username=postgres;Password=postgres"
       },
       "HangfireSettings": {
-        "GetPosRatiosJobCronFormat": "*/10 * * * *",
+        "GetPosRatiosJobCronFormat": "59 20 * * *",
         "HangfireDbConnectionString": "Host=paytr.shared.database;Port=5432;Database=posselection;Username=postgres;Password=postgres"
       },
       "RedisSettings": {
