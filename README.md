@@ -23,7 +23,7 @@ git clone https://github.com/Engineeremir/PayTR.PosSelection
 
 ### Step 2: Start Core Services
 
-Navigate to the `PayTR.PosSelection.System` directory and create the required network, then start the database and vault services:
+Navigate to the `PayTR.PosSelection.System` directory and create the required network, then start the database, redis and vault services:
 
 ```bash
 cd PayTR.PosSelection.System
